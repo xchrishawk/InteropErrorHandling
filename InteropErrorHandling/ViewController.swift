@@ -15,12 +15,12 @@ class ViewController: UIViewController {
 
     /// Pressed the "Call Swift From Objective C" button.
     @IBAction func callSwiftFromObjectiveCTouchUpInside(sender: UIButton) {
-        NSLog("swift from objective c")
+
     }
 
     /// Pressed the "Call Objective C From Swift" button.
     @IBAction func callObjectiveCFromSwiftTouchUpInside(sender: UIButton) {
-        NSLog("objective c from swift")
+        SwiftTestClass.callObjectiveCFromSwift()
     }
 
 }
