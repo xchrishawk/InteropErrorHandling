@@ -14,6 +14,8 @@
 		0C2C844E1D0D6A44008ACB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2C844C1D0D6A44008ACB7A /* LaunchScreen.storyboard */; };
 		0C2C84581D0D6CAD008ACB7A /* ObjectiveCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2C84571D0D6CAD008ACB7A /* ObjectiveCClass.m */; };
 		0C2C845A1D0D6D33008ACB7A /* ObjectiveCClassTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2C84591D0D6D33008ACB7A /* ObjectiveCClassTester.swift */; };
+		0CAD16BB1D0D8FE30022DD7D /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD16BA1D0D8FE30022DD7D /* SwiftClass.swift */; };
+		0CAD16BE1D0D906B0022DD7D /* SwiftClassTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAD16BD1D0D906B0022DD7D /* SwiftClassTester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		0C2C84561D0D6CAD008ACB7A /* InteropErrorHandling-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InteropErrorHandling-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C2C84571D0D6CAD008ACB7A /* ObjectiveCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCClass.m; sourceTree = "<group>"; };
 		0C2C84591D0D6D33008ACB7A /* ObjectiveCClassTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectiveCClassTester.swift; sourceTree = "<group>"; };
+		0CAD16BA1D0D8FE30022DD7D /* SwiftClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		0CAD16BC1D0D90650022DD7D /* SwiftClassTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftClassTester.h; sourceTree = "<group>"; };
+		0CAD16BD1D0D906B0022DD7D /* SwiftClassTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftClassTester.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,9 @@
 		0CAD16B91D0D8FB20022DD7D /* Swift From Objective C */ = {
 			isa = PBXGroup;
 			children = (
+				0CAD16BA1D0D8FE30022DD7D /* SwiftClass.swift */,
+				0CAD16BC1D0D90650022DD7D /* SwiftClassTester.h */,
+				0CAD16BD1D0D906B0022DD7D /* SwiftClassTester.m */,
 			);
 			name = "Swift From Objective C";
 			sourceTree = "<group>";
@@ -180,7 +188,9 @@
 				0C2C84581D0D6CAD008ACB7A /* ObjectiveCClass.m in Sources */,
 				0C2C84461D0D6A44008ACB7A /* ViewController.swift in Sources */,
 				0C2C845A1D0D6D33008ACB7A /* ObjectiveCClassTester.swift in Sources */,
+				0CAD16BB1D0D8FE30022DD7D /* SwiftClass.swift in Sources */,
 				0C2C84441D0D6A44008ACB7A /* AppDelegate.swift in Sources */,
+				0CAD16BE1D0D906B0022DD7D /* SwiftClassTester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

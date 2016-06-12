@@ -3,3 +3,4 @@
 //
 
 #import "ObjectiveCClass.h"
+#import "SwiftClassTester.h"

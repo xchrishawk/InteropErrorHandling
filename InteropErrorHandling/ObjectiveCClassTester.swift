@@ -8,7 +8,7 @@
 
 import Foundation
 
-/// Example Swift class.
+/// Class to test Objective-C error handling from Swift.
 class ObjectiveCClassTester {
 
     // MARK: Public API
@@ -38,9 +38,9 @@ class ObjectiveCClassTester {
     private static func testBoolFunction(name: String, function: () throws -> Void) {
         do {
             try function()
-            print("Function \(name) succeeded!")
+            NSLog("Function \(name) succeeded!")
         } catch let error as NSError {
-            print("Function \(name) threw NSError! \(error)")
+            NSLog("Function \(name) threw NSError! \(error)")
         }
     }
 
@@ -48,9 +48,9 @@ class ObjectiveCClassTester {
     private static func testStringFunction(name: String, function: () throws -> String) {
         do {
             let str = try function()
-            print("Function \(name) succeeded! Returned \(str)")
+            NSLog("Function \(name) succeeded! Returned \(str)")
         } catch let error as NSError {
-            print("Function \(name) threw NSError! \(error)")
+            NSLog("Function \(name) threw NSError! \(error)")
         }
     }
 

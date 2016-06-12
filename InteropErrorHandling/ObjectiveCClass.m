@@ -79,7 +79,7 @@
 
 - (void)setError:(NSError **)error
 {
-    *error = [NSError errorWithDomain:@"InteropErrorHandling.invictus.so" code:-1 userInfo:nil];
+    *error = [NSError errorWithDomain:@"so.invictus.InteropErrorHandling" code:-1 userInfo:nil];
 }
 
 @end
