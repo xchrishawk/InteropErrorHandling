@@ -8,18 +8,20 @@
 
 import UIKit
 
+/// Main view controller class.
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    // MARK: Actions
+
+    /// Pressed the "Call Swift From Objective C" button.
+    @IBAction func callSwiftFromObjectiveCTouchUpInside(sender: UIButton) {
+        NSLog("swift from objective c")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    /// Pressed the "Call Objective C From Swift" button.
+    @IBAction func callObjectiveCFromSwiftTouchUpInside(sender: UIButton) {
+        NSLog("objective c from swift")
     }
-
 
 }
 
