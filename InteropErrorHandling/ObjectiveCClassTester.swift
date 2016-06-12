@@ -3,7 +3,6 @@
 //  InteropErrorHandling
 //
 //  Created by Chris Vig on 6/12/16.
-//  Copyright © 2016 Chris Vig. All rights reserved.
 //
 
 import Foundation
