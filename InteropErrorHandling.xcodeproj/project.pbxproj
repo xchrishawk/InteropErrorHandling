@@ -13,7 +13,7 @@
 		0C2C844B1D0D6A44008ACB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2C844A1D0D6A44008ACB7A /* Assets.xcassets */; };
 		0C2C844E1D0D6A44008ACB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2C844C1D0D6A44008ACB7A /* LaunchScreen.storyboard */; };
 		0C2C84581D0D6CAD008ACB7A /* ObjectiveCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2C84571D0D6CAD008ACB7A /* ObjectiveCClass.m */; };
-		0C2C845A1D0D6D33008ACB7A /* SwiftTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2C84591D0D6D33008ACB7A /* SwiftTestClass.swift */; };
+		0C2C845A1D0D6D33008ACB7A /* ObjectiveCClassTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2C84591D0D6D33008ACB7A /* ObjectiveCClassTester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		0C2C84551D0D6CA3008ACB7A /* ObjectiveCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCClass.h; sourceTree = "<group>"; };
 		0C2C84561D0D6CAD008ACB7A /* InteropErrorHandling-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InteropErrorHandling-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C2C84571D0D6CAD008ACB7A /* ObjectiveCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCClass.m; sourceTree = "<group>"; };
-		0C2C84591D0D6D33008ACB7A /* SwiftTestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTestClass.swift; sourceTree = "<group>"; };
+		0C2C84591D0D6D33008ACB7A /* ObjectiveCClassTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectiveCClassTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +60,50 @@
 		0C2C84421D0D6A44008ACB7A /* InteropErrorHandling */ = {
 			isa = PBXGroup;
 			children = (
+				0CAD16B61D0D8EF70022DD7D /* Code */,
+				0CAD16B71D0D8EFB0022DD7D /* Resources */,
+			);
+			path = InteropErrorHandling;
+			sourceTree = "<group>";
+		};
+		0CAD16B61D0D8EF70022DD7D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD16B81D0D8F8A0022DD7D /* Objective C From Swift */,
+				0CAD16B91D0D8FB20022DD7D /* Swift From Objective C */,
+				0C2C84561D0D6CAD008ACB7A /* InteropErrorHandling-Bridging-Header.h */,
 				0C2C84431D0D6A44008ACB7A /* AppDelegate.swift */,
 				0C2C84451D0D6A44008ACB7A /* ViewController.swift */,
-				0C2C84591D0D6D33008ACB7A /* SwiftTestClass.swift */,
-				0C2C84551D0D6CA3008ACB7A /* ObjectiveCClass.h */,
-				0C2C84571D0D6CAD008ACB7A /* ObjectiveCClass.m */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		0CAD16B71D0D8EFB0022DD7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0C2C84471D0D6A44008ACB7A /* Main.storyboard */,
 				0C2C844A1D0D6A44008ACB7A /* Assets.xcassets */,
 				0C2C844C1D0D6A44008ACB7A /* LaunchScreen.storyboard */,
 				0C2C844F1D0D6A44008ACB7A /* Info.plist */,
-				0C2C84561D0D6CAD008ACB7A /* InteropErrorHandling-Bridging-Header.h */,
 			);
-			path = InteropErrorHandling;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0CAD16B81D0D8F8A0022DD7D /* Objective C From Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0C2C84551D0D6CA3008ACB7A /* ObjectiveCClass.h */,
+				0C2C84571D0D6CAD008ACB7A /* ObjectiveCClass.m */,
+				0C2C84591D0D6D33008ACB7A /* ObjectiveCClassTester.swift */,
+			);
+			name = "Objective C From Swift";
+			sourceTree = "<group>";
+		};
+		0CAD16B91D0D8FB20022DD7D /* Swift From Objective C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Swift From Objective C";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +179,7 @@
 			files = (
 				0C2C84581D0D6CAD008ACB7A /* ObjectiveCClass.m in Sources */,
 				0C2C84461D0D6A44008ACB7A /* ViewController.swift in Sources */,
-				0C2C845A1D0D6D33008ACB7A /* SwiftTestClass.swift in Sources */,
+				0C2C845A1D0D6D33008ACB7A /* ObjectiveCClassTester.swift in Sources */,
 				0C2C84441D0D6A44008ACB7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +337,7 @@
 				0C2C84541D0D6A44008ACB7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

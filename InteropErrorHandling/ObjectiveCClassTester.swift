@@ -9,7 +9,7 @@
 import Foundation
 
 /// Example Swift class.
-@objc class SwiftTestClass: NSObject {
+class ObjectiveCClassTester {
 
     // MARK: Public API
 
